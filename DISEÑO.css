@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    font-family: 'Press Start 2P', cursive;
+    background-color: #ffffff;
+}
+
+#selecciona-tu-chango{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Titulo{
+    color: white;
+    font-size: 40px;
+}
+
+.Subtitulo {
+    color: white;
+    font-size: 20px;
+}
+
+.Tarjetas {
+display: flex;
+gap:10px
+}
+
+.Tarjeta-De-Mokepon{
+    width: 180px;
+    height: 180px;
+    background: darkgray;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;   
+    margin: 20px;
+    border: 2px solid red;
+}
+
+.Tarjeta-De-Mokepon img {
+    width: 100px;
+}
+
+input{
+    display: none;
+}
